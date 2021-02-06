@@ -9,13 +9,17 @@ a{
 }
 #head {
 	margin: 0;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 	direction: rtl;
 	background-color: white;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 25px;
 	color: black;
+	position: fixed;
+	z-index:1;
+	width:100%;
+	top: 0px;
 }
 #head2 {
 	margin: 0;
@@ -24,8 +28,12 @@ a{
 	text-align: center;
 	background-color: purple;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 15px;
 	color: white;
+	position: fixed;
+	z-index:1;
+	width:100%;
+	top: 40px;
 }
 #menu {
 	margin: 0;
@@ -34,7 +42,18 @@ a{
 	direction: rtl;
 	background-color: white;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 12px;
 	color: black;
+	position: fixed;
+	z-index:1;
+	width:100%;
+	top: 79px;
+}
+
+#para {
+	margin: 5;
+	padding: 5px;
+	font-size: 50px;
+	color: white;
 	
 }
