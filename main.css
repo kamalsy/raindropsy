@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	background-color: white;
+}
+#head {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	direction: rtl;
+	background-color: white;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+}
+#head2 {
+	margin: 0;
+	direction: rtl;
+	padding: 10px;
+	text-align: center;
+	background-color: purple;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+#menu {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	direction: rtl;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+	
+}
