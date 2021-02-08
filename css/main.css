@@ -12,7 +12,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 17px;
+  font-family: 'Changa', sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -35,6 +36,7 @@
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+  font-family: 'Changa', sans-serif;
 }
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
