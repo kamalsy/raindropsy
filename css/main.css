@@ -43,7 +43,7 @@
 
 /* Main content */
 .main {
-  margin-top: 70px; /* Add a top margin to avoid content overlay */
+  margin-top: 65px; /* Add a top margin to avoid content overlay */
   margin-left: 8px;
   margin-right: 8px;
   font-family: 'Changa', sans-serif;
