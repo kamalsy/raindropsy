@@ -22,7 +22,7 @@ color: white;
 	position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.753);
 }
 
 .nav-bar{
@@ -102,7 +102,7 @@ color: white;
 	border-radius: 15px;
 	transition: all 0.2s ease-out;
 	height: 60px;
-	margin: 20px;
+	margin: 20px 10px;
 
 }
 
@@ -128,4 +128,17 @@ color: white;
 	text-align: right;
 	direction: rtl;
 }
-/*===============================/*
+/*===============================*/
+
+/*Footer*/
+footer {
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	direction: rtl;
+	border-top: 1px solid;
+}
+
+footer p {
+	margin: 5px;
+}
