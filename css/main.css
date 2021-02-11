@@ -88,16 +88,22 @@ color: white;
 }
 */
 /*===============================/*
+/* Main Content */
+.mainContent {
+	margin: 80px 10px;
+}
+/*===============================/*
 
 /* Latest News */
 .latest {
 	border: 2px dashed;
 	padding: 10px;
-	margin: 80px 10px;
 	text-align: center;
 	border-radius: 15px;
 	transition: all 0.2s ease-out;
 	height: 60px;
+	margin: 20px;
+
 }
 
 .latestimg {
