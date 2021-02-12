@@ -153,7 +153,15 @@ body {
 	direction: rtl;
 }
 /*===============================*/
+/* Comments*/
+.comments {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	direction: rtl;
 
+}
 /*Footer*/
 footer {
 	padding: 5px;
