@@ -29,7 +29,6 @@
 body {
 	background-color: black;
 	color: white;
-
 }
 /* All the Website */
 .container{
@@ -76,6 +75,7 @@ body {
 	width: 45px;
 	height: 45px;
 	transition: all 0.2s ease-out;
+	border-radius: 50px;
 }
 
 .logo a {

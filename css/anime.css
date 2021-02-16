@@ -42,10 +42,11 @@ body {
 	overflow: hidden;
 	margin: 0px;
 	height: 55px;
-	position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
-	background-color: rgba(0, 0, 0, 0.753);
+	position: fixed;
+    top: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.808);
+	
 }
 
 .nav-bar{
@@ -67,16 +68,21 @@ body {
 	font-weight: bold;
 	text-align: right;
 	direction: rtl;
-	margin-top: 14px;
+	margin-top: 6px;
 	margin-right: 8px;
 	
 }
-.logo img {
+.logo .logoimg {
 	float: right;
 	width: 45px;
 	height: 45px;
 	transition: all 0.2s ease-out;
 	border-radius: 50px;
+	border: 2px solid white;
+	background-image: url("/images/anime45.jpg");
+}
+.logo .logosubtext {
+	color: rgb(46, 179, 255);
 }
 
 .logo a {
@@ -88,7 +94,7 @@ body {
 	float: right;
 	list-style-type: none;
 	padding: 8px;
-	background-color: tomato;
+	background-color: rgb(57, 126, 255);
 	margin: 5px 6px;
 	transition: all .2s ease-out;
 	border-radius: 5px;
@@ -97,7 +103,7 @@ body {
 }
 
 .nav-bar ul li:hover {
-	background-color: wheat;
+	background-color: rgb(179, 213, 245);
 }
 .nav-bar a {
 	color: white;
@@ -105,6 +111,19 @@ body {
 }
 /*===============================/*
 
+/*Main Image
+.hero-img {
+	margin: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+.hero-img img {
+	width: 100%;
+}
+*/
+/*===============================/*
 /* Main Content */
 .mainContent {
 	clear: both;
@@ -117,25 +136,57 @@ body {
 .latest {
 	border: 2px dashed;
 	padding: 10px;
-	text-align: center;
 	border-radius: 15px;
 	transition: all 0.2s ease-out;
-	height:fit-content;
+	height: auto;
 	margin: 20px 10px;
-
+	
 }
 
+.latestimg {
+	float: left;
+	display: flex;
+	
+}
+
+.latestimg img {
+	height: 60px;
+	border-radius: 10px;
+
+}
+.latest:hover {
+	background-color: burlywood;
+	color: black;
+}
 .latestTitle {
-	text-align: center;
+	text-align: right;
 	direction: rtl;
 }
 .latestContent {
 	margin-top: 5px;
-	text-align: center;
+	text-align: right;
 	direction: rtl;
 }
-/*===============================*/
 
+.latest a {
+	color: white;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+}
+.latest a:hover {
+	color: black;
+	text-decoration: none;
+}
+/*===============================*/
+/* Comments*/
+.comments {
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	direction: rtl;
+
+}
 
  
 /*Footer*/

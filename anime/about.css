@@ -1,0 +1,27 @@
+@import url("/css/anime.css");
+
+/* Latest News */
+.latest {
+	border: 2px dashed;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	transition: all 0.2s ease-out;
+	height:auto;
+	margin: 20px 10px;
+}
+
+.latest:hover {
+	background-color:black;
+	color: white;
+}
+.latestTitle {
+	text-align: center;
+	direction: rtl;
+	margin-bottom: 10px;
+}
+.latestContent {
+	margin:0 25px;
+	text-align: right;
+	direction: rtl;
+}
