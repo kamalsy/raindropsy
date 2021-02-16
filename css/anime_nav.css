@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Tajawal';
+    src: url('/fonts/Tajawal-Bold.eot');
+    src: local('Tajawal-Bold'),
+        url('/fonts/Tajawal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Tajawal-Bold.woff2') format('woff2'),
+        url('/fonts/Tajawal-Bold.woff') format('woff'),
+        url('/fonts/Tajawal-Bold.ttf') format('truetype'),
+        url('/fonts/Tajawal-Bold.svg#Tajawal-Bold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('/fonts/Tajawal-Medium.eot');
+    src: local('Tajawal-Medium'),
+        url('/fonts/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Tajawal-Medium.woff2') format('woff2'),
+        url('/fonts/Tajawal-Medium.woff') format('woff'),
+        url('/fonts/Tajawal-Medium.ttf') format('truetype'),
+        url('/fonts/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+}
+
+/* The Navigation Bar */
+.nav{
+	border-bottom: 2px solid;
+	margin: 0px;
+	height: 55px;
+	position: fixed;
+    top: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.808);
+	z-index: 100;
+}
+
+.nav-bar{
+	float: left;
+	padding-left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 0;
+}
+
+.logo{
+	float: right;
+	transition: all 0.2s ease-out;
+	height: 50px;
+	margin: 2px 10px;
+}
+.logo .logotext {
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	direction: rtl;
+	margin-top: 6px;
+	margin-right: 8px;
+	
+}
+.logo .logoimg {
+	float: right;
+	width: 45px;
+	height: 45px;
+	transition: all 0.2s ease-out;
+	border-radius: 50px;
+	border: 2px solid white;
+	background-image: url("/images/anime45.jpg");
+}
+.logo .logosubtext {
+	color: rgb(46, 179, 255);
+}
+
+.logo a {
+	color: white;
+	text-decoration: none;
+}
+.nav-bar ul li {
+	vertical-align: middle;
+	float: right;
+	list-style-type: none;
+	padding: 8px;
+	background-color: rgb(57, 126, 255);
+	margin: 5px 6px;
+	transition: all .2s ease-out;
+	border-radius: 5px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.nav-bar ul li:hover {
+	background-color: rgb(179, 213, 245);
+}
+.nav-bar a {
+	color: white;
+	text-decoration: none;
+}
+/*===============================/*
+/*MENU/*
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 

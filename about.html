@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/about/about.css">
+    <link rel="stylesheet" type="text/css" href="/css/about.css">
     <link rel="icon" href="images/main100.jpg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>قطرة مطر</title>
+    <title>قطرة مطر - حول</title>
 </head>
 <body>
+
   <div class="container">
+
       <!--Navigation Bar-->
       <div class="nav">
-          <div class="nav-bar">
-              <ul>
-                <li><a href="about.html">حول</a></li>
-                <li><a href="contact.html">تواصل معنا</a></li>
-                <li><a href="menu.html">القائمة</a></li>
-              </ul>
-          </div>
-          <div class="logo"><a href="index.html">
-              <div class="logotext">
-                  قطرة مطر
-              </div>
-              <img src="images/100.png" alt="شعار قطرة مطر">
-            </a>
+        <div class="nav-bar">
+            <ul>
+              <li><a href="about.html">حول</a></li>
+              <li><a href="contact.html">تواصل معنا</a></li>
+              <div class="dropdown">
+                <li onclick="myFunction()" class="dropbtn">القائمة</li>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">الإنتاجات الحصرية</a>
+                  <a href="/anime.html">بوابة الأنمي</a>
+                  <a href="/manga.html">بوابة المانجا</a>
+                  <a href="/tech.html">بوابة التقنية</a>
+                  <a href="/music.html">بوابة الموسيقى</a>
+                  <a href="/cinema.html">بوابة السينما</a>
+                  <a href="/fun.html">بوابة التسلية</a>
+                  <a href="/blog.html">المدونة</a>
+                </div>
+              </div> 
+            </ul>
+        </div>
+        <div class="logo"><a href="index.html">
+            <div class="logotext">
+                قطرة مطر
             </div>
+            <div class="logoimg"></div>
+          </a>
+          </div>
           
       </div>
+<!--Menu-->
+
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
+</script>
+<!--//////////////////////////////////////////-->
 
 <!--Main Content-->
 <div class="mainContent">
@@ -41,7 +79,7 @@
 أجل كما قرأتم تماماً، هناك شخص واحد يقوم بالمونتاج وتصميم الفيديوهات، وإعداد الصوت، وتصميم الصور والجرافيكس، والترجمة وتنسيق النص، والبحث واستكشاف المواضيع، وبالطبع تصميم هذا الموقع سطراً سطراً!
 <br>
 <br>
-بلا شك مجهود كبير، لكنّه نابع من رغبتي في استكشاف هذا العالم واختيار أجمل وأفضل ما فيه وتقديمها لكم.
+بلا شك مجهود كبير، لكنّه نابع من رغبتي في استكشاف هذا العالم واختيار أجمل وأفضل ما فيه وتقديمه لكم.
 <br>
 <br>
 قد يتطور هذا الموقع مستقبلاً وسيصبح من الصعب إدارته والاستمرار بكل شيء بمفردي، لكن من المبكر التفكير بهذا الكلام.
@@ -56,7 +94,7 @@
 قد يكون المعنى بسيط نابع من حبي للشتاء، لكنّه أعمق من ذلك.
         <br>
 <br>
-قطرة مطر تمثّل تلك الجهود الصغيرة التي قد نلاحظ قيمتها حينما نقوم بها يومياً، إلا أنّها ذات تأثير كبير على المدى البعيد.
+قطرة مطر تمثّل تلك الجهود الصغيرة التي قد لا نلاحظ قيمتها حينما نقوم بها يومياً، إلا أنّها ذات تأثير كبير على المدى البعيد.
 <br>
 <br>
 فهذه الجهود أشبه بقطرات المطر التي تقطر قطرة قطرة على قطعة صخرٍ، فإنّك لا تلاحظ تأثيرها خلال يوم واحد، لكن انظر ماذا ستفعله في هذا الصخر خلال شهرٍ أو عام!

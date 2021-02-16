@@ -1,4 +1,27 @@
-@import url("/css/anime.css");
+@import url("/css/anime_nav.css");
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('/fonts/Tajawal-Bold.eot');
+    src: local('Tajawal-Bold'),
+        url('/fonts/Tajawal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Tajawal-Bold.woff2') format('woff2'),
+        url('/fonts/Tajawal-Bold.woff') format('woff'),
+        url('/fonts/Tajawal-Bold.ttf') format('truetype'),
+        url('/fonts/Tajawal-Bold.svg#Tajawal-Bold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('/fonts/Tajawal-Medium.eot');
+    src: local('Tajawal-Medium'),
+        url('/fonts/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Tajawal-Medium.woff2') format('woff2'),
+        url('/fonts/Tajawal-Medium.woff') format('woff'),
+        url('/fonts/Tajawal-Medium.ttf') format('truetype'),
+        url('/fonts/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+}
 
 /* Latest News */
 .latest {
@@ -24,4 +47,50 @@
 	margin:0 25px;
 	text-align: right;
 	direction: rtl;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Tajawal';
+}
+body {
+	background-color: black;
+	color: white;
+
+}
+/* All the Website */
+.container{
+	margin-top: 10px;
+}
+/* Main Content */
+.mainContent {
+	clear: both;
+	margin: 80px auto;
+	width: 70%;
+}
+/*===============================/*
+
+
+/*Footer*/
+footer {
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	direction: rtl;
+	border-top: 1px solid;
+}
+
+footer p {
+	margin: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	.mainContent {
+		clear: both;
+		margin: 80px auto;
+		width: 100%;
+	}
+
+
 }

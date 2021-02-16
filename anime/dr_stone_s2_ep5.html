@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/anime/animedaily.css">
     <link rel="icon" href="images/50.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css">
+    
     <title>الحلقة الخامسة من أنمي دكتور ستون الموسم الثاني - قطرة مطر - أنمي</title>
 </head>
 <body>
@@ -16,7 +18,18 @@
               <ul>
                 <li><a href="/anime/about.html">حول</a></li>
                 <li><a href="/anime/contact.html">تواصل معنا</a></li>
-                <li><a href="/anime/menu.html">القائمة</a></li>
+                <div class="dropdown">
+                    <li onclick="myFunction()" class="dropbtn">القائمة</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">الصفحة الرئيسية</a>
+                      <a href="/anime.html">قائمة الأنمي</a>
+                      <a href="#">قائمة الأفلام</a>
+                      <a href="#">فيديوهات</a>
+                      <a href="#">مقالات</a>
+                      <a href="#">تطبيقات</a>
+                      <a href="#">أوستات</a>
+                    </div>
+                  </div> 
               </ul>
           </div>
           <div class="logo"><a href="/anime.html">
@@ -29,7 +42,30 @@
             </div>
           
       </div>
+<!--Menu-->
 
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
+</script>
+<!--//////////////////////////////////////////-->
 <!--Main Content-->
 <div class="mainContent">
 

@@ -1,4 +1,4 @@
-@import url("/css/anime_nav.css");
+@import url("/css/main_nav.css");
 @font-face {
     font-family: 'Tajawal';
     src: url('/fonts/Tajawal-Bold.eot');
@@ -188,7 +188,7 @@ body {
 	padding: 20px;
 	margin: 10px;
 	direction: rtl;
-
+    text-align: center;
 }
 
  

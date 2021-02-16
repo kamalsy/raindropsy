@@ -27,9 +27,11 @@
 	padding: 0;
 	font-family: 'Tajawal';
 }
+
 body {
 	background-color: black;
 	color: white;
+
 }
 /* All the Website */
 .container{
@@ -37,7 +39,6 @@ body {
 }
 /*===============================/*
 
-/*===============================/*
 /* Main Content */
 .mainContent {
 	clear: both;
@@ -53,43 +54,22 @@ body {
 	text-align: center;
 	border-radius: 15px;
 	transition: all 0.2s ease-out;
-	height: 60px;
+	height:fit-content;
 	margin: 20px 10px;
 
 }
 
-.latestimg {
-	float: right;
-	width: 60px;
-	padding-left: 10px;
-}
-
-.latestimg img {
-	width: 100%;
-	border-radius: 10px;
-}
-.latest:hover {
-	background-color: burlywood;
-	color: black;
-}
 .latestTitle {
-	text-align: right;
+	text-align: center;
 	direction: rtl;
 }
 .latestContent {
-	text-align: right;
+	margin-top: 5px;
+	text-align: center;
 	direction: rtl;
 }
 /*===============================*/
-/* Comments*/
-.comments {
-	border: 2px solid;
-	border-radius: 5px;
-	padding: 20px;
-	margin: 10px;
-	direction: rtl;
 
-}
 
  
 /*Footer*/
