@@ -92,6 +92,7 @@ body {
 	margin-top: 5px;
 	text-align: right;
 	direction: rtl;
+	color: rgba(255, 255, 255, 0.726);
 }
 
 .latest a {
