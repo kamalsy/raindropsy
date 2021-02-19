@@ -37,19 +37,7 @@ body {
 .container{
 	margin-top: 10px;
 }
-/*Main Image
-.hero-img {
-	margin: 5px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 400px;
-}
-.hero-img img {
-	width: 100%;
-}
-*/
-/*===============================/*
+
 /* Main Content */
 .mainContent {
 	clear: both;
@@ -61,35 +49,36 @@ body {
 /* Latest News */
 .latest {
 	border: 2px dashed;
-	padding: 10px;
 	border-radius: 15px;
 	transition: all 0.2s ease-out;
 	height: auto;
-	margin: 20px 10px;
-	
+	margin: 20px 0;
+	display: table;
+	width: 100%;
 }
 
 .latestimg {
+	padding: 10px;
 	float: left;
-	display: flex;
-	
+	display: table-cell;
 }
 
 .latestimg img {
 	height: 60px;
 	border-radius: 10px;
-
+	border: 2px solid white;
 }
 .latest:hover {
 	background-color: burlywood;
 	color: black;
 }
 .latestTitle {
+	padding: 10px;
 	text-align: right;
 	direction: rtl;
 }
 .latestContent {
-	margin-top: 5px;
+	padding: 10px;
 	text-align: right;
 	direction: rtl;
 	opacity: 50%;
@@ -135,6 +124,9 @@ footer p {
 		margin: 80px auto;
 		width: 100%;
 	}
-
+	.latest {
+		width: auto;
+		margin: 20px 10px;
+	}
 
 }
