@@ -9,63 +9,12 @@
     <title>قطرة مطر - أنمي</title>
 </head>
 <body>
+  <!--NavBar-->
+<div id="main-bar"></div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/raindropanimenav.js" id="nav-bar"></script>
+<!--/////////////////////////////////-->
   <div class="container">
-      <!--Navigation Bar-->
-      <div class="nav">
-          <div class="nav-bar">
-              <ul>
-                <li><a href="/anime/about.html">حول</a></li>
-                <li><a href="/anime/contact.html">تواصل معنا</a></li>
-                <div class="dropdown">
-                    <li onclick="myFunction()" class="dropbtn">القائمة</li>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a href="/index.html">الصفحة الرئيسية</a>
-                      <a href="/anime.html">قائمة الأنمي</a>
-                      <a href="#">قائمة الأفلام</a>
-                      <a href="#">فيديوهات</a>
-                      <a href="#">مقالات</a>
-                      <a href="#">تطبيقات</a>
-                      <a href="#">مدبلج</a>
-                      <a href="#">أوستات</a>
-                    </div>
-                  </div> 
-              </ul>
-          </div>
-          <div class="logo"><a href="/anime.html">
-              <div class="logotext">
-                  <p>قطرة مطر</p>
-                  <div class="logosubtext">أنـمــــــــي</div>
-              </div>
-              <div class="logoimg"></div>
-            </a>
-            </div>
-          
-      </div>
-<!--Menu-->
-
-<script>
-    /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-} 
-</script>
-<!--//////////////////////////////////////////-->
-
 <!--Main Content-->
 <div class="mainContent">
 

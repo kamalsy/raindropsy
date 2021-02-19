@@ -9,64 +9,12 @@
     <title>قطرة مطر - حول</title>
 </head>
 <body>
-
-  <div class="container">
-
-      <!--Navigation Bar-->
-      <div class="nav">
-        <div class="nav-bar">
-            <ul>
-              <li><a href="about.html">حول</a></li>
-              <li><a href="contact.html">تواصل معنا</a></li>
-              <div class="dropdown">
-                <li onclick="myFunction()" class="dropbtn">القائمة</li>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">الإنتاجات الحصرية</a>
-                  <a href="/anime.html">بوابة الأنمي</a>
-                  <a href="/manga.html">بوابة المانجا</a>
-                  <a href="/tech.html">بوابة التقنية</a>
-                  <a href="/music.html">بوابة الموسيقى</a>
-                  <a href="/cinema.html">بوابة السينما</a>
-                  <a href="/fun.html">بوابة التسلية</a>
-                  <a href="/blog.html">المدونة</a>
-                </div>
-              </div> 
-            </ul>
-        </div>
-        <div class="logo"><a href="index.html">
-            <div class="logotext">
-                قطرة مطر
-            </div>
-            <div class="logoimg"></div>
-          </a>
-          </div>
-          
-      </div>
-<!--Menu-->
-
-<script>
-    /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-} 
-</script>
-<!--//////////////////////////////////////////-->
-
+<!--NavBar-->
+<div id="main-bar"></div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/raindropnav.js" id="nav-bar"></script>
+<!--/////////////////////////////////-->
+<div class="container">
 <!--Main Content-->
 <div class="mainContent">
 
