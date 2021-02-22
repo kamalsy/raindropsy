@@ -62,7 +62,7 @@
 }
 
 .latestContent ul li {
-	text-decoration: none;
+	list-style: none;
 	}
 .latestContent a {
 	color: rgb(46, 179, 255);
