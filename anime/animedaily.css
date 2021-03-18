@@ -95,6 +95,16 @@
 	transition: all 0.2s ease-out;
 	border: 2px solid black;
 }
+
+.uploadgram {
+	background-color: #3398DB;
+	padding: 5px;
+	width: 250px;
+	border-radius: 8px;
+	transition: all 0.2s ease-out;
+	border: 2px solid black;
+}
+
 .buttonlink {
 	padding: 5px;
 }
@@ -128,6 +138,11 @@
 .mega:hover {
 	border: 2px solid white;
 }
+
+.uploadgram:hover {
+	border: 2px solid white;
+}
+
 .zippyshare:hover {
 	border: 2px solid white;
 }
